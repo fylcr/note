@@ -1,18 +1,19 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
   name: "fylcr学习笔记"
   text: "fylcr在学习新知识时留下的笔记"
-  tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始阅读
+      link: /overview
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: fylcr博客
+      link: https://fylcr.dpdns.org
+    - theme: alt
+      text: Github
+      link: https://github.com/fylcr/note
 
 features:
   - title: Feature A
