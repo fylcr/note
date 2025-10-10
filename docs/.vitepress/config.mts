@@ -4,6 +4,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "fylcr学习笔记",
   description: "fylcr在学习新知识时留下的笔记",
+  markdown: {
+    image: {
+      lazyLoading: true
+    }
+  },
   srcDir: './note',
   cleanUrls: true,
   lastUpdated: true,
