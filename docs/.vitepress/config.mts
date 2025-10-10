@@ -4,10 +4,13 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "fylcr学习笔记",
   description: "fylcr在学习新知识时留下的笔记",
+  srcDir: './note',
+  cleanUrls: true,
+  lastUpdated: true,
+  base: '/note/',
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '博客', link: 'https://fylcr.dpdns.org/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
@@ -22,7 +25,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/fylcr/note' }
     ]
   }
 })
