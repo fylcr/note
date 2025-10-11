@@ -7,7 +7,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /overview
+      link: /overview/preface
     - theme: alt
       text: fylcr博客
       link: https://fylcr.dpdns.org
